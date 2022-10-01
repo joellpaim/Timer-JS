@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Timer JS</title>
+
+  <!--Materialize CSS-->
+  <link rel="stylesheet" href="./assets/css/materialize.min.css">
+  <!--Style CSS-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--Material Icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+
+  </header>
+  
+  <main>
+
+    <section class="containertime hoverable">
+      <i class="material-icons right">code</i>
+      <h1>Timer JS</h1>
+      <p class="relogio">00:00:00</p>
+      <p>
+        <button onclick="M.toast({html: 'Inicio!', classes: 'rounded'})" class="iniciar waves-effect waves-light btn cyan darken-3"><i class="material-icons left">play_arrow</i>iniciar</button>
+        <button onclick="M.toast({html: 'Pause!', classes: 'rounded'})" class="pausar waves-effect waves-light btn cyan darken-3"><i class="material-icons left">pause</i>pausar</button>
+        <button onclick="M.toast({html: 'Reset!', classes: 'rounded'})" class="zerar waves-effect waves-light btn cyan darken-3"><i class="material-icons left">stop</i>zerar</button>
+      </p>
+    </section>
+  
+    
+  </main>
+
+  <footer class="page-footer cyan darken-4">
+    
+    <div class="footer-copyright cyan darken-4">
+      <div class="container">
+      © 2022 Designed by Joel Paim
+      </div>
+    </div>
+  </footer>
+  
+
+  <script src="./assets/js/main.js"></script>
+  <!--Materialize JS-->
+  <script src="./assets/js/materialize.min.js"></script>
+
+</body>
+
+</html>
